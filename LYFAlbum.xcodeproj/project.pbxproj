@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BFF53E921B902A100359325 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF53E821B902A100359325 /* AppDelegate.m */; };
+		4BFF53EC21B902A100359325 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF53EB21B902A100359325 /* ViewController.m */; };
+		4BFF53EF21B902A100359325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFF53ED21B902A100359325 /* Main.storyboard */; };
+		4BFF53F121B902A300359325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFF53F021B902A300359325 /* Assets.xcassets */; };
+		4BFF53F421B902A300359325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFF53F221B902A300359325 /* LaunchScreen.storyboard */; };
+		4BFF53F721B902A300359325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF53F621B902A300359325 /* main.m */; };
+		4BFF53FF21B9036200359325 /* LYFAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF53FE21B9036200359325 /* LYFAlbumViewController.m */; };
+		4BFF540521B903A400359325 /* LYFAlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF540421B903A400359325 /* LYFAlbumCollectionViewCell.m */; };
+		4BFF540921B90B7A00359325 /* LYFAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF540821B90B7A00359325 /* LYFAlbumModel.m */; };
+		4BFF540D21B915D800359325 /* LYFPhotosManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF540C21B915D800359325 /* LYFPhotosManager.m */; };
+		4BFF541021B9161100359325 /* LYFPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF540F21B9161100359325 /* LYFPhotoModel.m */; };
+		4BFF541421B9170000359325 /* LYFPhotoManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF541321B9170000359325 /* LYFPhotoManger.m */; };
+		4BFF541821B91D5300359325 /* LYFAlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF541721B91D5300359325 /* LYFAlbumView.m */; };
+		4BFF541B21B91DE800359325 /* LYFAlbumTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF541A21B91DE800359325 /* LYFAlbumTableView.m */; };
+		4BFF541E21B920EE00359325 /* LYFAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFF541D21B920EE00359325 /* LYFAlbumTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BDB942E21BA4CC400B227E5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		4BDB942F21BA4CC400B227E5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4BFF53E421B902A100359325 /* LYFAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYFAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BFF53E721B902A100359325 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BFF53E821B902A100359325 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BFF53EA21B902A100359325 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4BFF53EB21B902A100359325 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4BFF53EE21B902A100359325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BFF53F021B902A300359325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BFF53F321B902A300359325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BFF53F521B902A300359325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFF53F621B902A300359325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BFF53FD21B9036200359325 /* LYFAlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFAlbumViewController.h; sourceTree = "<group>"; };
+		4BFF53FE21B9036200359325 /* LYFAlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFAlbumViewController.m; sourceTree = "<group>"; };
+		4BFF540321B903A400359325 /* LYFAlbumCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFAlbumCollectionViewCell.h; sourceTree = "<group>"; };
+		4BFF540421B903A400359325 /* LYFAlbumCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFAlbumCollectionViewCell.m; sourceTree = "<group>"; };
+		4BFF540721B90B7A00359325 /* LYFAlbumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFAlbumModel.h; sourceTree = "<group>"; };
+		4BFF540821B90B7A00359325 /* LYFAlbumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFAlbumModel.m; sourceTree = "<group>"; };
+		4BFF540B21B915D800359325 /* LYFPhotosManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFPhotosManager.h; sourceTree = "<group>"; };
+		4BFF540C21B915D800359325 /* LYFPhotosManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFPhotosManager.m; sourceTree = "<group>"; };
+		4BFF540E21B9161100359325 /* LYFPhotoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFPhotoModel.h; sourceTree = "<group>"; };
+		4BFF540F21B9161100359325 /* LYFPhotoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFPhotoModel.m; sourceTree = "<group>"; };
+		4BFF541221B9170000359325 /* LYFPhotoManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFPhotoManger.h; sourceTree = "<group>"; };
+		4BFF541321B9170000359325 /* LYFPhotoManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFPhotoManger.m; sourceTree = "<group>"; };
+		4BFF541621B91D5300359325 /* LYFAlbumView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFAlbumView.h; sourceTree = "<group>"; };
+		4BFF541721B91D5300359325 /* LYFAlbumView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFAlbumView.m; sourceTree = "<group>"; };
+		4BFF541921B91DE800359325 /* LYFAlbumTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFAlbumTableView.h; sourceTree = "<group>"; };
+		4BFF541A21B91DE800359325 /* LYFAlbumTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFAlbumTableView.m; sourceTree = "<group>"; };
+		4BFF541C21B920EE00359325 /* LYFAlbumTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFAlbumTableViewCell.h; sourceTree = "<group>"; };
+		4BFF541D21B920EE00359325 /* LYFAlbumTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFAlbumTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BFF53E121B902A100359325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BFF53DB21B902A100359325 = {
+			isa = PBXGroup;
+			children = (
+				4BFF53E621B902A100359325 /* LYFAlbum */,
+				4BFF53E521B902A100359325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BFF53E521B902A100359325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BFF53E421B902A100359325 /* LYFAlbum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BFF53E621B902A100359325 /* LYFAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				4BFF540021B9037300359325 /* Album */,
+				4BFF53E721B902A100359325 /* AppDelegate.h */,
+				4BFF53E821B902A100359325 /* AppDelegate.m */,
+				4BFF53EA21B902A100359325 /* ViewController.h */,
+				4BFF53EB21B902A100359325 /* ViewController.m */,
+				4BFF53ED21B902A100359325 /* Main.storyboard */,
+				4BFF53F021B902A300359325 /* Assets.xcassets */,
+				4BFF53F221B902A300359325 /* LaunchScreen.storyboard */,
+				4BFF53F521B902A300359325 /* Info.plist */,
+				4BFF53F621B902A300359325 /* main.m */,
+			);
+			path = LYFAlbum;
+			sourceTree = "<group>";
+		};
+		4BFF540021B9037300359325 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				4BFF540B21B915D800359325 /* LYFPhotosManager.h */,
+				4BFF540C21B915D800359325 /* LYFPhotosManager.m */,
+				4BFF540621B90B6E00359325 /* Model */,
+				4BFF540221B9038A00359325 /* View */,
+				4BFF540121B9038100359325 /* Controller */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		4BFF540121B9038100359325 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4BFF53FD21B9036200359325 /* LYFAlbumViewController.h */,
+				4BFF53FE21B9036200359325 /* LYFAlbumViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4BFF540221B9038A00359325 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BFF541521B91D1E00359325 /* Album */,
+				4BFF540321B903A400359325 /* LYFAlbumCollectionViewCell.h */,
+				4BFF540421B903A400359325 /* LYFAlbumCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4BFF540621B90B6E00359325 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BFF541121B916F600359325 /* PhotoManger */,
+				4BFF540721B90B7A00359325 /* LYFAlbumModel.h */,
+				4BFF540821B90B7A00359325 /* LYFAlbumModel.m */,
+				4BFF540E21B9161100359325 /* LYFPhotoModel.h */,
+				4BFF540F21B9161100359325 /* LYFPhotoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BFF541121B916F600359325 /* PhotoManger */ = {
+			isa = PBXGroup;
+			children = (
+				4BFF541221B9170000359325 /* LYFPhotoManger.h */,
+				4BFF541321B9170000359325 /* LYFPhotoManger.m */,
+			);
+			path = PhotoManger;
+			sourceTree = "<group>";
+		};
+		4BFF541521B91D1E00359325 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				4BFF541621B91D5300359325 /* LYFAlbumView.h */,
+				4BFF541721B91D5300359325 /* LYFAlbumView.m */,
+				4BFF541921B91DE800359325 /* LYFAlbumTableView.h */,
+				4BFF541A21B91DE800359325 /* LYFAlbumTableView.m */,
+				4BFF541C21B920EE00359325 /* LYFAlbumTableViewCell.h */,
+				4BFF541D21B920EE00359325 /* LYFAlbumTableViewCell.m */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BFF53E321B902A100359325 /* LYFAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BFF53FA21B902A300359325 /* Build configuration list for PBXNativeTarget "LYFAlbum" */;
+			buildPhases = (
+				4BFF53E021B902A100359325 /* Sources */,
+				4BFF53E121B902A100359325 /* Frameworks */,
+				4BFF53E221B902A100359325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYFAlbum;
+			productName = LYFAlbum;
+			productReference = 4BFF53E421B902A100359325 /* LYFAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BFF53DC21B902A100359325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LYF;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "李玉枫";
+				TargetAttributes = {
+					4BFF53E321B902A100359325 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4BFF53DF21B902A100359325 /* Build configuration list for PBXProject "LYFAlbum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BFF53DB21B902A100359325;
+			productRefGroup = 4BFF53E521B902A100359325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BFF53E321B902A100359325 /* LYFAlbum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BFF53E221B902A100359325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFF53F421B902A300359325 /* LaunchScreen.storyboard in Resources */,
+				4BFF53F121B902A300359325 /* Assets.xcassets in Resources */,
+				4BFF53EF21B902A100359325 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BFF53E021B902A100359325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFF541021B9161100359325 /* LYFPhotoModel.m in Sources */,
+				4BFF541421B9170000359325 /* LYFPhotoManger.m in Sources */,
+				4BFF540521B903A400359325 /* LYFAlbumCollectionViewCell.m in Sources */,
+				4BFF540D21B915D800359325 /* LYFPhotosManager.m in Sources */,
+				4BFF540921B90B7A00359325 /* LYFAlbumModel.m in Sources */,
+				4BFF541E21B920EE00359325 /* LYFAlbumTableViewCell.m in Sources */,
+				4BFF53EC21B902A100359325 /* ViewController.m in Sources */,
+				4BFF541B21B91DE800359325 /* LYFAlbumTableView.m in Sources */,
+				4BFF53F721B902A300359325 /* main.m in Sources */,
+				4BFF53FF21B9036200359325 /* LYFAlbumViewController.m in Sources */,
+				4BFF541821B91D5300359325 /* LYFAlbumView.m in Sources */,
+				4BFF53E921B902A100359325 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BFF53ED21B902A100359325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BFF53EE21B902A100359325 /* Base */,
+				4BDB942E21BA4CC400B227E5 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BFF53F221B902A300359325 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BFF53F321B902A300359325 /* Base */,
+				4BDB942F21BA4CC400B227E5 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BFF53F821B902A300359325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4BFF53F921B902A300359325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BFF53FB21B902A300359325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPA6552T64;
+				INFOPLIST_FILE = LYFAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYFAlbum.LYFAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BFF53FC21B902A300359325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPA6552T64;
+				INFOPLIST_FILE = LYFAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYFAlbum.LYFAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BFF53DF21B902A100359325 /* Build configuration list for PBXProject "LYFAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BFF53F821B902A300359325 /* Debug */,
+				4BFF53F921B902A300359325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BFF53FA21B902A300359325 /* Build configuration list for PBXNativeTarget "LYFAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BFF53FB21B902A300359325 /* Debug */,
+				4BFF53FC21B902A300359325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BFF53DC21B902A100359325 /* Project object */;
+}
