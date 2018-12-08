@@ -10,9 +10,7 @@
 
 @implementation LYFAlbumModel
 
--(void)setCollection:(PHAssetCollection *)collection {
-    _collection = collection;
-    
+-(void)setCollection:(PHAssetCollection *)collection {    
     _collection = collection;
     
     if ([collection.localizedTitle isEqualToString:@"All Photos"]) {
